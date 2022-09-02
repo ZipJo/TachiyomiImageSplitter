@@ -74,7 +74,7 @@ public class ThreadUtils {
 
     public static String getTachiyomiPath() {
         File dataDir = Environment.getExternalStorageDirectory();
-        return dataDir.getPath() + "/Tachiyomi";
+        return dataDir.getPath() + "/Aniyomi";
     }
 
     public static void updateBar(final Activity activity, final int max, final int current) {
